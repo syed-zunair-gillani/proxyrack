@@ -1,0 +1,12 @@
+{
+  "extends": "./node_modules/@significa/tsconfig-config/index.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
