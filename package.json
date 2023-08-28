@@ -50,7 +50,6 @@
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "@next/eslint-plugin-next": "^13.4.19",
-    "@significa/eslint-config": "^2.0.1",
     "@significa/prettier-config": "^2.0.0",
     "@significa/tsconfig-config": "^2.0.0",
     "@storybook/addon-actions": "^6.3.6",
