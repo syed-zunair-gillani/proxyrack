@@ -55,7 +55,7 @@
     "@storybook/addon-actions": "^6.3.6",
     "@storybook/addon-essentials": "^6.3.6",
     "@storybook/addon-links": "^6.3.6",
-    "@storybook/react": "^7.3.2",
+    "@storybook/react": "^6.2.9",
     "@svgr/webpack": "^8.1.0",
     "@types/jest": "^26.0.24",
     "@types/node": "^20.5.4",
