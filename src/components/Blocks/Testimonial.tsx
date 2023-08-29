@@ -89,10 +89,10 @@ export const Testimonial = ({
               },
             }}
           >
-            <NextImage
+            <img
               {...getImageAttributes(block.image)}
-              objectFit="cover"
-              quality="100"
+              // objectFit="cover"
+              // quality="100"
               width={getImageAttributes(block.image).width}
               height={getImageAttributes(block.image).height}
             />
