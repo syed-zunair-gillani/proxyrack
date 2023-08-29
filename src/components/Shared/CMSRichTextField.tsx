@@ -76,16 +76,16 @@ const defaultNodeResolvers = {
             '@md': { mx: '-130px', width: 'auto' },
           }}
         >
-          <NextImage
+          <img
             src={
               /.gif$/.test(attrs.src)
                 ? attrs.src
                 : storyblokImageService(attrs.src, '1000x0')
             }
             alt={attrs.alt}
-            width={getStoryblokImageSize(attrs.src).width}
-            height={getStoryblokImageSize(attrs.src).height}
-            layout="responsive"
+            // width={getStoryblokImageSize(attrs.src).width}
+            // height={getStoryblokImageSize(attrs.src).height}
+            // layout="responsive"
           />
           {attrs.title && (
             <Text
