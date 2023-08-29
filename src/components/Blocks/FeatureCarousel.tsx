@@ -241,8 +241,8 @@ export const FeatureCarousel = ({
                               {...getImageAttributes(feature.image)}
                               objectFit="cover"
                               quality="100"
-                              width={getImageAttributes(feature.image).width}
-                              height={getImageAttributes(feature.image).height}
+                              width={parseInt(getImageAttributes(feature.image).width)}
+                              height={parseInt(getImageAttributes(feature.image).height)}
                             />
                           </RightWrapper>
                           <Divider
@@ -263,14 +263,14 @@ export const FeatureCarousel = ({
                     objectFit="cover"
                     quality="100"
                     width={
-                      getImageAttributes(
+                      parseInt(getImageAttributes(
                         block.feature_carousel_entry[activeIndex].image
-                      ).width
+                      ).width)
                     }
                     height={
-                      getImageAttributes(
+                      parseInt(getImageAttributes(
                         block.feature_carousel_entry[activeIndex].image
-                      ).height
+                      ).height)
                     }
                     priority
                   />
