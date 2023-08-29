@@ -5,6 +5,7 @@ import { Theme } from './Theme'
 
 type CardProps = {
   variant: 'primary' | 'secondary'
+  css:any
 }
 
 export const LightCard: React.FC<CardProps> = ({ children, ...props }) => {
