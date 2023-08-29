@@ -79,11 +79,11 @@ export const TwoColumns = ({
         {block.image && block.image.filename && (
           <StyledBox variant={isReversed ? 'oneColumn' : 'twoColumn'}>
             <ImageWrapper>
-              <NextImage
+              <img
                 {...getImageAttributes(block.image)}
-                objectFit="cover"
-                quality="100"
-                priority
+                // objectFit="cover"
+                // quality="100"
+                // priority
                 width={getImageAttributes(block.image).width}
                 height={getImageAttributes(block.image).height}
               />
