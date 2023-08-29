@@ -155,12 +155,12 @@ const FooterMobile: React.FC<FooterMobileProps> = ({ content, ...props }) => {
                   }}
                 >
                   <ImageWrapper>
-                    <NextImage
+                    <img
                       {...getImageAttributes(social.image)}
-                      objectFit="cover"
-                      quality="100"
-                      width={getImageAttributes(social.image).width}
-                      height={getImageAttributes(social.image).height}
+                      // objectFit="cover"
+                      // quality="100"
+                      // width={getImageAttributes(social.image).width}
+                      // height={getImageAttributes(social.image).height}
                       alt="image"
                     />
                   </ImageWrapper>
